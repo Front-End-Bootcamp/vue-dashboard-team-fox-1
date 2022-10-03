@@ -1,7 +1,11 @@
-<script setup></script>
+<script setup>
+import OptionIcon from "./OptionIcon.vue";
+</script>
 
 <template>
-	<div class="card"></div>
+	<div class="card">
+		<OptionIcon />
+	</div>
 </template>
 
 <style scoped lang="scss">

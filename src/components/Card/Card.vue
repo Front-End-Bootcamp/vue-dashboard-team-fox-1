@@ -1,10 +1,14 @@
 <script setup>
 import OptionIcon from "./OptionIcon.vue";
+import CardInfo from "./CardInfo.vue";
+import CardPictures from "./CardPictures.vue";
 </script>
 
 <template>
 	<div class="card">
 		<OptionIcon />
+		<CardInfo />
+		<CardPictures />
 	</div>
 </template>
 

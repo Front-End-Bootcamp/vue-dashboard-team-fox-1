@@ -1,18 +1,14 @@
 <script setup>
 import OptionIcon from "./OptionIcon.vue";
-const props = defineProps([
-	"isActive",
-	"title",
-	"date",
-	"tasks",
-	"users",
-	"progress",
-]);
+import CardInfo from "./CardInfo.vue";
+import CardPictures from "./CardPictures.vue";
 </script>
 
 <template>
 	<div class="card">
 		<OptionIcon />
+		<CardInfo />
+		<CardPictures />
 	</div>
 </template>
 

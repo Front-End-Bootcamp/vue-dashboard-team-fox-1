@@ -1,11 +1,15 @@
 <script setup>
 import OptionIcon from "./OptionIcon.vue";
+import Status from "./Status.vue";
+import Date from "./Date.vue";
 </script>
 
 <template>
 	<div class="card">
 		<OptionIcon />
 	</div>
+	<Status />
+	<Date />
 </template>
 
 <style scoped lang="scss">

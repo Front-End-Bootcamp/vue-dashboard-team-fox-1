@@ -1,5 +1,13 @@
 <script setup>
 import OptionIcon from "./OptionIcon.vue";
+const props = defineProps([
+	"isActive",
+	"title",
+	"date",
+	"tasks",
+	"users",
+	"progress",
+]);
 </script>
 
 <template>

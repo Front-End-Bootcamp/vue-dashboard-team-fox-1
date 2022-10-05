@@ -11,3 +11,27 @@ body {
 	background-color: #e5e5e5;
 }
 </style>
+
+<!-- <script setup>
+import Card from './components/Card/Card.vue';
+</script>
+
+<template>
+	<div class="container">
+		<div class="cardContent"><Card ></Card></div>
+		<div class="cardContent"><Card ></Card></div>
+	</div>
+	
+</template>
+
+<style  lang="scss" scoped>
+	.container {
+		display: flex;
+		background: #E5E5E5;
+	}
+	.cardContent {
+		margin: 15px;
+	}
+
+
+</style> -->

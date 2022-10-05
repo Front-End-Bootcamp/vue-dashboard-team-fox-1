@@ -1,16 +1,16 @@
 <script setup>
-import Card from "./components/Card/Card.vue";
+import BootcampLogo from "./assets/svg/BootcampLogo.vue";
+import HelloWorld from "./components/HelloWorld.vue";
+import Sidebar from "./components/Sidebar.vue";
 </script>
 
 <template>
-	<Card />
+	<div>
+		<Sidebar></Sidebar>
+	</div>
 </template>
 
-<style>
-body {
-	background-color: #e5e5e5;
-}
-</style>
+<style scoped></style>
 
 <!-- <script setup>
 import Card from './components/Card/Card.vue';

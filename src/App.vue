@@ -1,34 +1,37 @@
 <script setup>
-import BootcampLogo from "./assets/svg/BootcampLogo.vue"
-import HelloWorld from './components/HelloWorld.vue'
+import BootcampLogo from "./assets/svg/BootcampLogo.vue";
+import HelloWorld from "./components/HelloWorld.vue";
+import Sidebar from "./components/Sidebar.vue";
 </script>
 
 <template>
 	<div>
-		<BootcampLogo />
-		<br />
-		<a href="https://vitejs.dev" target="_blank">
-			<img src="/vite.svg" class="logo" alt="Vite logo" />
-		</a>
-		<a href="https://vuejs.org/" target="_blank">
-			<img src="/vue.svg" class="logo vue" alt="Vue logo" />
-		</a>
+		<Sidebar></Sidebar>
 	</div>
-	<HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-.logo {
-	height: 6em;
-	padding: 1.5em;
-	will-change: filter;
-}
+<style scoped></style>
 
-.logo:hover {
-	filter: drop-shadow(0 0 2em #646cffaa);
-}
+<!-- <script setup>
+import Card from './components/Card/Card.vue';
+</script>
 
-.logo.vue:hover {
-	filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<template>
+	<div class="container">
+		<div class="cardContent"><Card ></Card></div>
+		<div class="cardContent"><Card ></Card></div>
+	</div>
+	
+</template>
+
+<style  lang="scss" scoped>
+	.container {
+		display: flex;
+		background: #E5E5E5;
+	}
+	.cardContent {
+		margin: 15px;
+	}
+
+
+</style> -->

@@ -1,12 +1,12 @@
 <script setup>
-import BootcampLogo from "./assets/svg/BootcampLogo.vue";
-import HelloWorld from "./components/HelloWorld.vue";
 import Sidebar from "./components/Sidebar.vue";
+import Card from "./components/Card/Card.vue";
 </script>
 
 <template>
 	<div>
 		<Sidebar></Sidebar>
+		<Card style="margin: 150px" />
 	</div>
 </template>
 

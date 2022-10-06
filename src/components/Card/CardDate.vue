@@ -1,20 +1,26 @@
 <script setup>
-const props = defineProps(["date"]);
+
+const props = defineProps(['data']);
 </script>
 
 <template>
-	<div class="dateText">Status Date</div>
+	<div class="card__startDate">
+			<p>Start Date</p>
+			<p>{{ props.data?.startDate}}</p>
+	</div>
 </template>
 
+
+
 <style scoped lang="scss">
-.dateData {
+.dateData{
 	position: absolute;
 	width: 73px;
 	height: 15px;
 	left: 373px;
 	top: 325px;
 
-	font-family: "Roboto";
+	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 13px;
@@ -28,8 +34,8 @@ const props = defineProps(["date"]);
 	height: 14px;
 	left: 373px;
 	top: 303px;
-
-	font-family: "Roboto";
+		
+	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 12px;
@@ -38,4 +44,5 @@ const props = defineProps(["date"]);
 
 	color: #717986;
 }
+
 </style>

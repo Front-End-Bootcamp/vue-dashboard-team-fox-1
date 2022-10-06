@@ -4,13 +4,14 @@ import CardInfo from "./CardInfo.vue";
 import CardPictures from "./CardPictures.vue";
 
 const props = defineProps(["cardValue"]);
+
 </script>
 
 <template>
-	<div class="card" >
+	<div class="card" v-for="item in props.cardValue">
 		<OptionIcon />
-		<CardInfo :cardInfo="props.cardValue"  />
-		<CardPictures />
+		<CardInfo :cardTask="item.task"  :cardUser="item.user" />
+		<CardPictures :picture="item.membersPictures"/>
 	</div>
 </template>
 

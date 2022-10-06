@@ -1,0 +1,74 @@
+[
+	{
+		"title": "Core Team Project",
+		"startingDate": "12/10/2022",
+		"tasks": 7,
+		"users": 2,
+		"progress": "67",
+		"status": "active"
+	},
+	{
+		"title": "Marketing Team Project",
+		"startingDate": "12/10/2022",
+		"tasks": 3,
+		"users": 4,
+		"progress": "0",
+		"status": "active"
+	},
+	{
+		"title": "Channels Team",
+		"startingDate": "12/10/2022",
+		"tasks": 12,
+		"users": 5,
+		"progress": "32",
+		"status": "active"
+	},
+	{
+		"title": "VOIP Development",
+		"startingDate": "12/10/2022",
+		"tasks": 14,
+		"users": 6,
+		"progress": "7",
+		"status": "active"
+	},
+	{
+		"title": "Advertisement",
+		"startingDate": "12/10/2022",
+		"tasks": 14,
+		"users": 4,
+		"progress": "0",
+		"status": "active"
+	},
+	{
+		"title": "Discover",
+		"startingDate": "12/10/2022",
+		"tasks": 14,
+		"users": 4,
+		"progress": "97",
+		"status": "active"
+	},
+	{
+		"title": "TV and Music",
+		"startingDate": "12/10/2022",
+		"tasks": 14,
+		"users": 4,
+		"progress": "3",
+		"status": "active"
+	},
+	{
+		"title": "Business Project",
+		"startingDate": "12/10/2022",
+		"tasks": 14,
+		"users": 4,
+		"progress": "79",
+		"status": "active"
+	},
+	{
+		"title": "Backup Project",
+		"startingDate": "12/10/2022",
+		"tasks": 14,
+		"users": 4,
+		"progress": "28",
+		"status": "active"
+	}
+]

@@ -8,7 +8,9 @@
 			"https://picsum.photos/id/99/200/200"
 		],
 		"startDate": "15 Sep 2022",
-		"status": "Active"
+		"status": "Active",
+		"title": "Core Team Project",
+		"progress": "67"
 	},
 	{
 		"task": 21,
@@ -19,7 +21,9 @@
 			"https://picsum.photos/id/35/200/200"
 		],
 		"startDate": "15 Sep 2022",
-		"status": "On Hold"
+		"status": "On Hold",
+		"title": "Marketing Team Project",
+		"progress": "0"
 	},
 	{
 		"task": 11,
@@ -29,7 +33,9 @@
 			"https://picsum.photos/id/76/200/200"
 		],
 		"startDate": "15 Sep 2022",
-		"status": "Inactive"
+		"status": "Inactive",
+		"title": "Channels Team",
+		"progress": "32"
 	},
 	{
 		"task": 13,
@@ -44,7 +50,9 @@
 			"https://picsum.photos/id/30/200/200"
 		],
 		"startDate": "15 Sep 2022",
-		"status": "Active"
+		"status": "Active",
+		"title": "VOIP Development",
+		"progress": "7"
 	},
 
 	{
@@ -56,7 +64,9 @@
 			"https://picsum.photos/id/85/200/200"
 		],
 		"startDate": "15 Sep 2022",
-		"status": "Inactive"
+		"status": "Inactive",
+		"title": "Advertisement",
+		"progress": "0"
 	},
 	{
 		"task": 8,
@@ -70,7 +80,9 @@
 			"https://picsum.photos/id/31/200/200"
 		],
 		"startDate": "15 Sep 2022",
-		"status": "On Hold"
+		"status": "On Hold",
+		"title": "Discover",
+		"progress": "97"
 	},
 	{
 		"task": 21,
@@ -83,7 +95,9 @@
 			"https://picsum.photos/id/46/200/200"
 		],
 		"startDate": "15 Sep 2022",
-		"status": "Inactive"
+		"status": "Inactive",
+		"title": "TV and Music",
+		"progress": "3"
 	},
 	{
 		"task": 13,
@@ -97,13 +111,17 @@
 			"https://picsum.photos/id/28/200/200"
 		],
 		"startDate": "15 Sep 2022",
-		"status": "Active"
+		"status": "Active",
+		"title": "Business Project",
+		"progress": "79"
 	},
 	{
 		"task": 22,
 		"user": 6,
 		"membersPictures": ["https://picsum.photos/id/94/200/200"],
 		"startDate": "15 Sep 2022",
-		"status": "On Hold"
+		"status": "On Hold",
+		"title": "Backup Project",
+		"progress": "28"
 	}
 ]

@@ -1,11 +1,11 @@
 <script setup>
-const props = defineProps(["data"]);
+const props = defineProps(["date"]);
 </script>
 
 <template>
 	<div class="card__startDate">
 		<p>Start Date</p>
-		<p>{{ props.data?.startDate }}</p>
+		<p>{{ props.date }}</p>
 	</div>
 </template>
 

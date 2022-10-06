@@ -6,9 +6,24 @@ import Sidebar from "./components/SideBar/Sidebar.vue";
 </script>
 
 <template>
-	<div>
-		<!-- <Navbar /> -->
-		<Sidebar />
-		<!-- <Card :cardValue="data" /> -->
+	<!-- <Navbar /> -->
+	<Sidebar />
+	<div class="wrapper">
+		<div class="cardContent">
+			<Card :data="data" />
+		</div>
 	</div>
 </template>
+
+<style lang="scss" scoped>
+.cardContent {
+	background: #ffffff;
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	box-sizing: content-box;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+</style>

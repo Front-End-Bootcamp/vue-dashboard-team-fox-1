@@ -1,70 +1,70 @@
 <script setup>
-	const props = defineProps(['data']);
-		const userStatus =  props.data?.status
-		console.log("sds", userStatus);
+const props = defineProps(["status"]);
 </script>
 
-
-	<template>
-		<div class="status__wrapper">
-			<div class="circle"
+<template>
+	<div class="status__wrapper">
+		<div
+			class="circle"
 			:class="{
-				circleActive: userStatus === `Active`, 
-				circleInactive: userStatus === `Inactive`, 
-				circleHold: userStatus === `On Hold`}"></div>
-			<p 
+				circleActive: props.status === `Active`,
+				circleInactive: props.status === `Inactive`,
+				circleHold: props.status === `On Hold`,
+			}"
+		></div>
+		<p
 			class="card__status"
 			:class="{
-				statusActive: userStatus === `Active`, 
-				statusInactive: userStatus === `Inactive`, 
-				statusHold: userStatus === `On Hold`}"
-			>
-				{{userStatus}}
-			</p>
-		</div>
-	</template>
-
+				statusActive: props.status === `Active`,
+				statusInactive: props.status === `Inactive`,
+				statusHold: props.status === `On Hold`,
+			}"
+		>
+			{{ props.status }}
+		</p>
+	</div>
+</template>
 
 <style scoped>
-
-.status__wrapper{
+.status__wrapper {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	box-sizing: border-box;
+	margin: 0 30px;
 }
 
-.circle{
+.circle {
 	width: 8px;
 	height: 8px;
 	border-radius: 50px;
 	margin-right: 8px;
 }
 
-.circleActive{
-	background-color: #00DB99;
+.circleActive {
+	background-color: #00db99;
 }
-.circleHold{
-	background-color: #F0BB00;
+.circleHold {
+	background-color: #f0bb00;
 }
-.circleInactive{
-	background-color: #FF285C;
+.circleInactive {
+	background-color: #ff285c;
 }
 
-.card__status{
-	font-family: 'Roboto';
+.card__status {
+	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 500;
 	font-size: 13px;
 	line-height: 15px;
 }
-.statusActive{
-	color: #00DB99;
+.statusActive {
+	color: #00db99;
 }
-.statusHold{
-	color: #F0BB00;
+.statusHold {
+	color: #f0bb00;
 }
-.statusInactive{
-	color: #FF285C;
+.statusInactive {
+	color: #ff285c;
 }
 </style>

@@ -286,6 +286,9 @@
 		color: #00db99;
 	}
 }
+a {
+	text-decoration: none;
+}
 a:hover {
 	color: #00db99;
 }

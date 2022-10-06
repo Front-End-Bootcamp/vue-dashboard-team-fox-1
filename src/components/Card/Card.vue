@@ -13,6 +13,10 @@ const props = defineProps(["cardValue"]);
 		<CardInfo :cardTask="item.task"  :cardUser="item.user" />
 		<CardPictures :picture="item.membersPictures"/>
 	</div>
+<script setup></script>
+
+<template>
+	<div class="card"></div>
 </template>
 
 <style scoped lang="scss">

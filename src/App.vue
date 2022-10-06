@@ -49,36 +49,15 @@ const card = ref([
 		membersPictures:["https://picsum.photos/id/35/200/200" ]
 	}
 ]);
+import data from "./assets/data.json";
 </script>
 
 <template>
 	<div>
 		<Card :cardValue="card" />	
+		<Sidebar></Sidebar>
+		<Card :data="data" />
 	</div>
 </template>
 
 <style scoped></style>
-
-<!-- <script setup>
-import Card from './components/Card/Card.vue';
-</script>
-
-<template>
-	<div class="container">
-		<div class="cardContent"><Card ></Card></div>
-		<div class="cardContent"><Card ></Card></div>
-	</div>
-	
-</template>
-
-<style  lang="scss" scoped>
-	.container {
-		display: flex;
-		background: #E5E5E5;
-	}
-	.cardContent {
-		margin: 15px;
-	}
-
-
-</style> -->

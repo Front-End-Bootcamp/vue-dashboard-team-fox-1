@@ -1,6 +1,6 @@
 <script setup>
-	import Status from "./Status.vue";
-	import Date from "./Date.vue";
+	import Status from "./CardStatus.vue";
+	import Date from "./CardDate.vue";
 	const props = defineProps(['data']);
 	</script>
 	

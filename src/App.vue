@@ -1,17 +1,14 @@
 <script setup>
-import BootcampLogo from "./assets/svg/BootcampLogo.vue"
-import HelloWorld from './components/HelloWorld.vue'
 import Sidebar from "./components/Sidebar.vue";
+import Card from "./components/Card/Card.vue";
+import data from "./assets/data.json";
 </script>
 
 <template>
 	<div>
 		<Sidebar></Sidebar>
-		
+		<Card :data="data" />
 	</div>
-	
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

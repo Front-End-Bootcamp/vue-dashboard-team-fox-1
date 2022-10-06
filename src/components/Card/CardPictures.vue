@@ -1,21 +1,18 @@
 <script setup>
 const props = defineProps(["picture"]);
-console.log("pictures",props.picture);
-JSON.stringify
 </script>
 
-
 <template>
-	<div class="members" >
+	<div class="members">
 		<p>Members</p>
-		<div >
-			<img v-for="item in props.picture"
+		<div>
+			<img
+				v-for="item in props.picture"
 				class="members_image"
-				v-bind:src=item
-				/>
-				<img class="members_image" v-bind:src="'../../../public/added.png'" />
-			</div>
-			
+				v-bind:src="item"
+			/>
+			<img class="members_image" v-bind:src="'../../../public/added.png'" />
+		</div>
 	</div>
 </template>
 

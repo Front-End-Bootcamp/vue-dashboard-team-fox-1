@@ -1,12 +1,12 @@
 <script setup>
-import ComponentButton from "./components/ComponentButton.vue";
-import ComponentFilter from "./components/ComponentFilter.vue";
-import ComponentSearch from "./components/ComponentSearch.vue";
-import ComponentSettings from "./components/ComponentSettings.vue";
-import ComponentUser from "./components/ComponentUser.vue";
-import ComponentNotification from "./components/ComponentNotification.vue";
-import ComponentComment from "./components/ComponentComment.vue";
-import ComponentsProjects from "./components/ComponentsProjects.vue";
+import ComponentButton from "./ComponentButton.vue";
+import ComponentFilter from "./ComponentFilter.vue";
+import ComponentSearch from "./ComponentSearch.vue";
+import ComponentSettings from "./ComponentSettings.vue";
+import ComponentUser from "./ComponentUser.vue";
+import ComponentNotification from "./ComponentNotification.vue";
+import ComponentComment from "./ComponentComment.vue";
+import ComponentsProjects from "./ComponentsProjects.vue";
 </script>
 
 <template>

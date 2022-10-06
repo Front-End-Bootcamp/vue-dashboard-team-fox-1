@@ -1,23 +1,7 @@
-<script setup>
-import OptionIcon from "./OptionIcon.vue";
-import CardInfo from "./CardInfo.vue";
-import CardPictures from "./CardPictures.vue";
-import CardDate from "./CardDate.vue";
-import CardStatus from "./CardStatus.vue";
-import CardEditIcon from "./CardEditIcon.vue";
-import CardProgressBar from "./CardProgressBar.vue";
-</script>
+<script setup></script>
 
 <template>
-	<div class="card">
-		<OptionIcon />
-		<CardInfo />
-		<CardPictures />
-		<CardDate />
-		<CardStatus />
-		<CardEditIcon />
-		<CardProgressBar />
-	</div>
+	<div class="card"></div>
 </template>
 
 <style scoped lang="scss">

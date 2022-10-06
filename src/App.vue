@@ -12,7 +12,7 @@ allData.value = DATA;
 	<div class="container">
 		<div><Sidebar></Sidebar></div>
 			<div class="cardContent">
-			<Card :cardValue="allData" v-for="data in allData.length" :key="data" />
+			<Card :cardValue="allData"  />
 		</div>
 	</div>
 

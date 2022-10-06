@@ -1,14 +1,13 @@
 <script setup>
-import {ref} from "vue"
 const props = defineProps(['progress'])
-const percent = ref(parseFloat(Math.random()*100).toFixed(0))
-console.log(percent);
+console.log(props.progress);
+
 </script>
 
 <template>
-	<div class="progressText"> Progress <span class="progressBarText" >{{percent}}%</span></div>
+	<div class="progressText"> Progress <span class="progressBarText" >{{props.progress}}%</span></div>
 	<div class="box">
-			<div class="progressBar"  :style="{'width':percent + '%'}" ></div>	
+			<div class="progressBar"  :style="{'width':props.progress + '%'}" ></div>	
 	</div>
 	
 </template>

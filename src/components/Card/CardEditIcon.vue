@@ -26,6 +26,7 @@
 	margin-left: 28px;
 	margin-top: 24px;
 	display: flex;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 
 

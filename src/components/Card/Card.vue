@@ -11,12 +11,12 @@ const props = defineProps(['cardValue']);
 </script>
 
 <template>
-	<div class="card">
+	<div class="card" v-for="item in props.cardValue">
 	<div class="container">
-		<CardEditIcon :title="props.cardValue"  >   </CardEditIcon>
+		<CardEditIcon :title="item.title"  >   </CardEditIcon>
 		<OptionIcon />
 	</div>
-	<CardStatus  > </CardStatus>
+	<CardStatus :status="item.status" > </CardStatus>
 	<div class="dateInfo">
 		<CardInfo  ></CardInfo>
 		<CardDate  />
@@ -27,7 +27,7 @@ const props = defineProps(['cardValue']);
 		
 		<CardStatus  />
 		
-		<CardProgressBar  />
+		<CardProgressBar :progress="item.progress" />
 	</div>
 </template>
 

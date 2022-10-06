@@ -1,6 +1,6 @@
 [
 	{
-		"title": "merhaba",
+		"title": "Core Team Project",
 		"startingDate": "12/10/2022",
 		"tasks": 7,
 		"users": 2,
@@ -8,67 +8,67 @@
 		"status": "active"
 	},
 	{
-		"title": "nasılsın",
+		"title": "Marketing Team Project",
 		"startingDate": "12/10/2022",
 		"tasks": 3,
 		"users": 4,
-		"progress": "67",
+		"progress": "0",
 		"status": "active"
 	},
 	{
-		"title": "iyimisin",
+		"title": "Channels Team",
 		"startingDate": "12/10/2022",
 		"tasks": 12,
 		"users": 5,
-		"progress": "69",
+		"progress": "32",
 		"status": "active"
 	},
 	{
-		"title": "merheeefsakjfbaba",
+		"title": "VOIP Development",
 		"startingDate": "12/10/2022",
 		"tasks": 14,
 		"users": 6,
-		"progress": "71",
+		"progress": "7",
 		"status": "active"
 	},
 	{
-		"title": "merhaba",
+		"title": "Advertisement",
 		"startingDate": "12/10/2022",
 		"tasks": 14,
 		"users": 4,
-		"progress": "67",
+		"progress": "0",
 		"status": "active"
 	},
 	{
-		"title": "merhaba",
+		"title": "Discover",
 		"startingDate": "12/10/2022",
 		"tasks": 14,
 		"users": 4,
-		"progress": "67%",
+		"progress": "97",
 		"status": "active"
 	},
 	{
-		"title": "merhaba",
+		"title": "TV and Music",
 		"startingDate": "12/10/2022",
 		"tasks": 14,
 		"users": 4,
-		"progress": "67%",
+		"progress": "3",
 		"status": "active"
 	},
 	{
-		"title": "merhaba",
+		"title": "Business Project",
 		"startingDate": "12/10/2022",
 		"tasks": 14,
 		"users": 4,
-		"progress": "67%",
+		"progress": "79",
 		"status": "active"
 	},
 	{
-		"title": "merhaba",
+		"title": "Backup Project",
 		"startingDate": "12/10/2022",
 		"tasks": 14,
 		"users": 4,
-		"progress": "67%",
+		"progress": "28",
 		"status": "active"
 	}
 ]

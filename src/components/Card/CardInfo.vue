@@ -1,14 +1,18 @@
-<script setup></script>
+<script setup>
+
+const props = defineProps(["cardTask","cardUser"]);
+
+</script>
 
 <template>
-	<div class="card_info">
+	<div class="card_info" >
 			<div class="card_task">
-				<p class="task_value">14</p>
-				<p class="task_text">Task</p> 
+				<p class="value">{{props.cardTask}}</p>
+				<p class="text">Task</p> 
 			</div>
 			<div class="card_user">
-				<p class="task_value">4</p>
-				<p class="task_text">User</p> 
+				<p class="value">{{props.cardUser}}</p>
+				<p class="text">User</p> 
 			</div>
 	</div>
 </template>
@@ -32,11 +36,11 @@
 	text-align: center;
 	border-right: 1px  solid #cddcee;
 }
-.task_text{
+.text{
 	margin: 1px 10px 5px 10px;
 	color: #717986;
 }
-.task_value{
+.value{
 	margin: 5px 10px 5px 10px;
 	color: #3c557a;
 	font-weight: bold;

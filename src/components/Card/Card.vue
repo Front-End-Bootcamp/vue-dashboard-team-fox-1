@@ -1,22 +1,17 @@
 <script setup>
-import OptionIcon from "./OptionIcon.vue";
+
 import CardInfo from "./CardInfo.vue";
 import CardPictures from "./CardPictures.vue";
-import CardDate from "./CardDate.vue";
-import CardStatus from "./CardStatus.vue";
-import CardEditIcon from "./CardEditIcon.vue";
-import CardProgressBar from "./CardProgressBar.vue";
+
+const props = defineProps(["cardValue"]);
+
 </script>
 
 <template>
-	<div class="card">
-		<OptionIcon />
-		<CardInfo />
-		<CardPictures />
-		<CardDate />
-		<CardStatus />
-		<CardEditIcon />
-		<CardProgressBar />
+	<div class="card" v-for="item in props.cardValue">
+
+		<CardInfo :cardTask="item.task"  :cardUser="item.user" />
+		<CardPictures :picture="item.membersPictures"/>
 	</div>
 </template>
 

@@ -2,12 +2,14 @@
 import OptionIcon from "./OptionIcon.vue";
 import CardInfo from "./CardInfo.vue";
 import CardPictures from "./CardPictures.vue";
+
+const props = defineProps(["cardValue"]);
 </script>
 
 <template>
-	<div class="card">
+	<div class="card" >
 		<OptionIcon />
-		<CardInfo />
+		<CardInfo :cardInfo="props.cardValue"  />
 		<CardPictures />
 	</div>
 </template>

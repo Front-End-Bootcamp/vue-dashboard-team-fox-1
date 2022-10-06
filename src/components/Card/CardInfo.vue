@@ -1,13 +1,17 @@
-<script setup></script>
+<script setup>
+
+const props = defineProps(["cardInfo"]);
+console.log("cardinfo",props.cardInfo.task);
+</script>
 
 <template>
-	<div class="card_info">
+	<div class="card_info" v-for="value in props.cardInfo">
 			<div class="card_task">
-				<p class="task_value">14</p>
+				<p class="task_value">{{value.task}}</p>
 				<p class="task_text">Task</p> 
 			</div>
 			<div class="card_user">
-				<p class="task_value">4</p>
+				<p class="task_value">{{value.user}}</p>
 				<p class="task_text">User</p> 
 			</div>
 	</div>

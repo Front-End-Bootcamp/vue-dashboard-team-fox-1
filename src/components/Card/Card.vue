@@ -1,5 +1,5 @@
 <script setup>
-import OptionIcon from "./OptionIcon.vue";
+
 import CardInfo from "./CardInfo.vue";
 import CardPictures from "./CardPictures.vue";
 
@@ -9,7 +9,7 @@ const props = defineProps(["cardValue"]);
 
 <template>
 	<div class="card" v-for="item in props.cardValue">
-		<OptionIcon />
+
 		<CardInfo :cardTask="item.task"  :cardUser="item.user" />
 		<CardPictures :picture="item.membersPictures"/>
 	</div>

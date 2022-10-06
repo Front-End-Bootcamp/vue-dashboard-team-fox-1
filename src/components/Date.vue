@@ -1,11 +1,15 @@
 <script setup>
-	const props = defineProps(['date']);
 
+const props = defineProps(['data']);
 </script>
 
 <template>
-	<div class="dateText">Status Date</div>
+	<div class="card__startDate">
+			<p>Start Date</p>
+			<p>{{ props.data?.startDate}}</p>
+	</div>
 </template>
+
 
 
 <style scoped lang="scss">

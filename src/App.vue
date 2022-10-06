@@ -1,37 +1,20 @@
 <script setup>
-import BootcampLogo from "./assets/svg/BootcampLogo.vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import { computed } from 'vue';
 import Sidebar from "./components/Sidebar.vue";
+import Card from "./components/Card.vue";
+import cardData from "./assets/svg/data.json";
+import Status from './components/Status.vue';
+
+const values = computed(() => {
+	return cardData
+})
+
 </script>
 
 <template>
-	<div>
-		<Sidebar></Sidebar>
-	</div>
+	<Sidebar/>
+	<Card v-for="(value, index) in values" :key="index" :data="value"/>
 </template>
 
-<style scoped></style>
-
-<!-- <script setup>
-import Card from './components/Card/Card.vue';
-</script>
-
-<template>
-	<div class="container">
-		<div class="cardContent"><Card ></Card></div>
-		<div class="cardContent"><Card ></Card></div>
-	</div>
-	
-</template>
-
-<style  lang="scss" scoped>
-	.container {
-		display: flex;
-		background: #E5E5E5;
-	}
-	.cardContent {
-		margin: 15px;
-	}
-
-
-</style> -->
+<style scoped>
+</style>

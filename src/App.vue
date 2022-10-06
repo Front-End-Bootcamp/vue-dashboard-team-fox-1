@@ -1,8 +1,8 @@
 <script setup>
-import {ref, onMounted} from "vue";
-import Sidebar from "./components/Sidebar.vue";
+import {ref} from "vue";
+import Sidebar from "./components/Sidebar/Sidebar.vue";
 import Card from "./components/Card/Card.vue";
-import DATA from "@/data/data.json";
+import DATA from "@/assets/data/data.json";
 const allData = ref([]);
 console.log(DATA);
 allData.value = DATA;

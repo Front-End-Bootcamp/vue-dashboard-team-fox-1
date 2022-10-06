@@ -3,7 +3,7 @@ const props = defineProps(["status"]);
 </script>
 
 <template>
-	<div class="status"></div>
+	<div class="status"  ></div>
 </template>
 
 <style scoped>

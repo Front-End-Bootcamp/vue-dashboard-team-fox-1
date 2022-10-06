@@ -26,14 +26,16 @@ const props = defineProps(["date"]);
 	position: absolute;
 	width: 53px;
 	height: 14px;
-	left: 373px;
-	top: 303px;
+	// left: 373px;
+	// top: 303px;
 
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 14px;
+	margin-left: 28px;
+	margin-top:68px ;
 	/* identical to box height */
 
 	color: #717986;

@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+const props = defineProps(['task'])
+</script>
 
 <template>
 	<div class="card_info">
@@ -21,8 +23,8 @@
 	position: relative;
 	float: right;
 	border-radius: 10%;
-	margin-top: 20%;
-	margin-right: 5%;
+	margin-top: 58px;
+	margin-right: 32px;
 }
 .card_task {
 	position: relative;

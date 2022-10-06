@@ -1,22 +1,24 @@
 <script setup>
 import {ref} from "vue"
-let percent = ref(parseFloat(Math.random()*100).toFixed(0))
+const props = defineProps(['progress'])
+const percent = ref(parseFloat(Math.random()*100).toFixed(0))
 console.log(percent);
 </script>
 
 <template>
 	<div class="progressText"> Progress <span class="progressBarText" >{{percent}}%</span></div>
-		<div class="box">
-			<div class="progressBar" :style="{'width':percent+'%'}" >
-		</div>
+	<div class="box">
+			<div class="progressBar"  :style="{'width':percent + '%'}" ></div>	
 	</div>
+	
 </template>
 
 <style lang="scss" scoped>
 .box {
-	width: 100%;
+	width: 439px;
 	height: 8px;
-	margin-right: 26px;
+	margin-right: 28px;
+	margin-left: 28px;
 	margin-top: 8px;
 	margin-bottom: 24px;
 	border-radius: 75px;
@@ -28,7 +30,6 @@ console.log(percent);
 .progressBar {
 	width: 100%;
 	height: 8px;
-	margin-right: 26px;
 	margin-top: 8px;
 	margin-bottom: 24px;
 	border-radius: 75px;
@@ -38,10 +39,13 @@ console.log(percent);
 	align-items: center;
 }
 .progressText{
-	margin-top: 206px;
+	margin-top: 16px;
 	color: black;
 	text-align: left;
 	font-size: 13px;
+	margin-right: 28px;
+	margin-left: 28px;
+	font-weight: 500;
 
 }
 .progressBarText{

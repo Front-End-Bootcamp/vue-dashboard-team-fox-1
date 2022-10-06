@@ -16,7 +16,7 @@
 <style scoped lang="scss">
 .members{
 	position: relative;
-	margin-top: 35%;
+	margin-top: 25%;
 	height: auto;
 	width: auto;
 	color: #3c557a;

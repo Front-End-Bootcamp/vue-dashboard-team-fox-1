@@ -1,37 +1,47 @@
 <script setup>
+import {ref, onMounted} from "vue";
 import Sidebar from "./components/Sidebar.vue";
 import Card from "./components/Card/Card.vue";
-</script>
-
-<template>
-	<div>
-		<Sidebar></Sidebar>
-		<Card style="margin: 150px" />
-	</div>
-</template>
-
-<style scoped></style>
-
-<!-- <script setup>
-import Card from './components/Card/Card.vue';
+import DATA from "@/data/data.json";
+const allData = ref([]);
+console.log(DATA);
+allData.value = DATA;
 </script>
 
 <template>
 	<div class="container">
-		<div class="cardContent"><Card ></Card></div>
-		<div class="cardContent"><Card ></Card></div>
+		<div><Sidebar></Sidebar></div>
+			<div class="cardContent">
+			<Card :cardValue="allData" v-for="data in allData.length" :key="data" />
+		</div>
 	</div>
+
 	
+
 </template>
 
+<style scoped></style>
+
+
 <style  lang="scss" scoped>
-	.container {
-		display: flex;
-		background: #E5E5E5;
-	}
+
 	.cardContent {
 		margin: 15px;
+		background: #FFFFFF;
+		// display: flex;
+    // flex-wrap: wrap;
+    // flex-direction: row;
+		display: grid;
+  	grid-template-columns: 1fr 1fr 3fr;
+		margin-left: 250px;
+		box-sizing: content-box;
+		
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
 	}
 
 
-</style> -->
+</style>

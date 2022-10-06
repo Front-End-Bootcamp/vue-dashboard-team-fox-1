@@ -1,0 +1,74 @@
+[
+	{
+		"title": "merhaba",
+		"startingDate": "12/10/2022",
+		"tasks": 7,
+		"users": 2,
+		"progress": "67",
+		"status": "active"
+	},
+	{
+		"title": "nasılsın",
+		"startingDate": "12/10/2022",
+		"tasks": 3,
+		"users": 4,
+		"progress": "67",
+		"status": "active"
+	},
+	{
+		"title": "iyimisin",
+		"startingDate": "12/10/2022",
+		"tasks": 12,
+		"users": 5,
+		"progress": "69",
+		"status": "active"
+	},
+	{
+		"title": "merheeefsakjfbaba",
+		"startingDate": "12/10/2022",
+		"tasks": 14,
+		"users": 6,
+		"progress": "71",
+		"status": "active"
+	},
+	{
+		"title": "merhaba",
+		"startingDate": "12/10/2022",
+		"tasks": 14,
+		"users": 4,
+		"progress": "67",
+		"status": "active"
+	},
+	{
+		"title": "merhaba",
+		"startingDate": "12/10/2022",
+		"tasks": 14,
+		"users": 4,
+		"progress": "67%",
+		"status": "active"
+	},
+	{
+		"title": "merhaba",
+		"startingDate": "12/10/2022",
+		"tasks": 14,
+		"users": 4,
+		"progress": "67%",
+		"status": "active"
+	},
+	{
+		"title": "merhaba",
+		"startingDate": "12/10/2022",
+		"tasks": 14,
+		"users": 4,
+		"progress": "67%",
+		"status": "active"
+	},
+	{
+		"title": "merhaba",
+		"startingDate": "12/10/2022",
+		"tasks": 14,
+		"users": 4,
+		"progress": "67%",
+		"status": "active"
+	}
+]

@@ -1,7 +1,8 @@
 <script setup></script>
 
 <template>
-	<div class="optionButton"></div>
+	<div class="optionButton">
+	</div>
 </template>
 
 <style scoped lang="scss">
@@ -10,8 +11,8 @@
 	width: 3.5px;
 	height: 3.5px;
 	border-radius: 50%;
-	left: 480px;
-	top: 10px;
+	left: 255px;
+	top: 24px;
 	background-color: #8b8b8b;
 	cursor: pointer;
 }

@@ -1,22 +1,15 @@
 <script setup>
-
 import CardInfo from "./CardInfo.vue";
 import CardPictures from "./CardPictures.vue";
 
 const props = defineProps(["cardValue"]);
-
 </script>
 
 <template>
 	<div class="card" v-for="item in props.cardValue">
-
-		<CardInfo :cardTask="item.task"  :cardUser="item.user" />
-		<CardPictures :picture="item.membersPictures"/>
+		<CardInfo :cardTask="item.task" :cardUser="item.user" />
+		<CardPictures :picture="item.membersPictures" />
 	</div>
-<script setup></script>
-
-<template>
-	<div class="card"></div>
 </template>
 
 <style scoped lang="scss">

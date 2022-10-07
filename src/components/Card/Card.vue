@@ -4,28 +4,29 @@ import CardPictures from "./CardPictures.vue";
 import CardDate from "./CardDate.vue";
 import CardStatus from "./CardStatus.vue";
 import CardEditIcon from "./CardEditIcon.vue";
+import CardProgressBar from "./CardProgressBar.vue";
 
 const props = defineProps(["data"]);
 </script>
 
 <template>
 	<div class="card" v-for="item in props.data">
-		<div class="title">
-			<CardEditIcon :title="item.title" />
-		</div>
+		<CardEditIcon :title="item.title" />
 		<div class="status">
 			<CardStatus :status="item.status" />
 			<CardDate :date="item.startDate" />
 		</div>
+
 		<CardInfo :task="item.task" :cardUser="item.user" />
 		<CardPictures :picture="item.membersPictures" />
+
+		<div class="card_footer"></div>
 	</div>
 </template>
 
 <style scoped lang="scss">
-.status {
-	float: left;
-	text-align: center;
+.card__footer {
+	position: absolute;
 }
 
 .card {

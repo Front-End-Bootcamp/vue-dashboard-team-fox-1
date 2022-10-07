@@ -1,15 +1,15 @@
 <script setup>
-const props = defineProps(['progress'])
+const props = defineProps(["progress"]);
 console.log(props.progress);
-
 </script>
 
 <template>
-	<div class="progressText"> Progress <span class="progressBarText" >{{props.progress}}%</span></div>
-	<div class="box">
-			<div class="progressBar"  :style="{'width':props.progress + '%'}" ></div>	
+	<div class="progressText">
+		Progress <span class="progressBarText">{{ props.progress }}%</span>
 	</div>
-	
+	<div class="box">
+		<div class="progressBar" :style="{ width: props.progress + '%' }"></div>
+	</div>
 </template>
 
 <style lang="scss" scoped>
@@ -21,8 +21,8 @@ console.log(props.progress);
 	margin-top: 8px;
 	margin-bottom: 24px;
 	border-radius: 75px;
-	background:#F1F2F7;
-	box-shadow:  3px 3 px 30px 3px rgba(0, 0, 0, 0.1);
+	background: #f1f2f7;
+	box-shadow: 3px 3 px 30px 3px rgba(0, 0, 0, 0.1);
 	text-align: right;
 	align-items: center;
 }
@@ -32,12 +32,12 @@ console.log(props.progress);
 	margin-top: 8px;
 	margin-bottom: 24px;
 	border-radius: 75px;
-	background:#1BE3A7;
-	box-shadow:  3px 3 px 30px 3px rgba(0, 0, 0, 0.1);
+	background: #1be3a7;
+	box-shadow: 3px 3 px 30px 3px rgba(0, 0, 0, 0.1);
 	text-align: right;
 	align-items: center;
 }
-.progressText{
+.progressText {
 	margin-top: 16px;
 	color: black;
 	text-align: left;
@@ -45,9 +45,8 @@ console.log(props.progress);
 	margin-right: 28px;
 	margin-left: 28px;
 	font-weight: 500;
-
 }
-.progressBarText{
+.progressBarText {
 	color: black;
 	float: right;
 	font-size: 12px;

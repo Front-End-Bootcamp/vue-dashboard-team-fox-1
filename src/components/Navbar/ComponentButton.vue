@@ -5,34 +5,34 @@ const newProject = ref("newProject");
 
 <template>
 	<div class="component-button">
-		<div class="plus-10">
-			<img alt="" class="vector" src="src/assets/icons/plus.svg" />
-		</div>
-		<p class="newProject">New</p>
+		<p class="plus-10">+</p>
+		<small class="newProject">New</small>
 	</div>
 </template>
 
 <style lang="scss" scoped>
 .component-button {
-	background-color: rgba(0, 219, 153, 1);
-	border-radius: 26px;
-	padding: 14px 32px 14px 24px;
 	display: flex;
-	align-items: center;
+	justify-content: space-between;
+	height: 0.75 * 52px;
+	width: 0.75 * 127px;
+	border-radius: 26px;
+	box-sizing: border-box;
+	background: #00db99;
+	position: absolute;
+	top: 80px;
+	cursor: pointer;
+	margin-left: 250px;
 }
 .plus-10 {
-	width: calc(33.8% - 8px);
-	margin-right: 11px;
-	padding: 4px;
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	align-self: stretch;
+	font-size: 25px;
+	margin: 0 16px;
+	color: rgba(255, 255, 255, 1);
 }
-.vector {
-	flex: 1;
-	align-self: stretch;
-	object-fit: cover;
-}
+
 .newProject {
 	width: 50.7%;
 	height: 87.5%;
@@ -40,6 +40,7 @@ const newProject = ref("newProject");
 	font-size: 18px;
 	font-weight: 500;
 	line-height: normal;
+	margin-top: 8px;
 	color: rgba(255, 255, 255, 1);
 }
 </style>

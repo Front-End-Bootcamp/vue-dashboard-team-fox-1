@@ -4,17 +4,18 @@ const props = defineProps(["date"]);
 
 <template>
 	<div class="card__startDate">
-		<small>Start Date</small>
-		<p class="date">{{ props.date }}</p>
+		<small>Start Date</small> <br />
+		<small class="date">{{ props.date }}</small>
 	</div>
 </template>
 
 <style scoped>
 .card__startDate {
-	margin: 0 25px;
+	margin-top: 20px;
 	color: #717986;
 }
 .date {
-	margin: 5px 0;
+	margin-left: 14px;
+	font-size: 14px;
 }
 </style>

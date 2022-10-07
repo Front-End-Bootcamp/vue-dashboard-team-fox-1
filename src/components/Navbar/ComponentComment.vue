@@ -14,8 +14,10 @@ const comment = ref("Comment");
 	padding: 2.33px 2.34px 2.34px 2.33px;
 	display: flex;
 	align-items: center;
+	cursor: pointer;
 }
 .vector {
+	margin-top: 12px;
 	width: 100%;
 	align-self: stretch;
 	object-fit: cover;

@@ -5,9 +5,9 @@ const search = ref("Search");
 </script>
 <template>
 	<div class="component-search">
-		<p class="search">Search</p>
 		<img alt="" class="vector" src="src/assets/icons/search.svg" />
-		<div class="rectangle-1"></div>
+		<!-- <div class="rectangle-1"></div> -->
+		<input class="rectangle-1" type="text" placeholder="Search" />
 	</div>
 </template>
 
@@ -17,28 +17,22 @@ const search = ref("Search");
 	padding: 1.65px 1.67px 1.69px 1.65px;
 	position: relative;
 }
-.search {
-	width: 43px;
-	font-family: "Roboto";
-	font-size: 14px;
-	font-weight: 400;
-	line-height: normal;
-	color: rgba(139, 139, 139, 1);
-	position: absolute;
-	right: -55px;
-	top: 2px;
-}
+
 .vector {
-	width: 100%;
-	height: 100%;
+	width: 16.68px;
+	padding: 2px;
+	top: 11px;
+	left: 8px;
+	position: absolute;
 }
 .rectangle-1 {
-	width: 2210%;
-	height: 240%;
-	background-color: rgba(241, 242, 247, 1);
-	border-radius: 8px;
-	position: absolute;
-	left: -1786px;
-	top: -14px;
+	height: 0.75 * 24px;
+	width: 0.75 * 422px;
+	left: 0.75 * 818px;
+	top: 0.75 * 32px;
+	background: #f1f2f7;
+	border: none;
+	border-radius: 0.3rem;
+	padding: 12px 30px;
 }
 </style>

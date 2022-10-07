@@ -6,7 +6,7 @@ import Sidebar from "./components/SideBar/Sidebar.vue";
 </script>
 
 <template>
-	<!-- <Navbar /> -->
+	<Navbar />
 	<Sidebar />
 	<div class="wrapper">
 		<div class="cardContent">

@@ -27,10 +27,13 @@ const defaultSort = ref("Default");
 .component-filter {
 	background-color: rgba(255, 255, 255, 1);
 	border-radius: 8px;
-	padding: 13px 19px 13px 39px;
+	padding: 5px 10px;
 	display: flex;
-	align-items: center;
 	border: 1px solid rgba(241, 242, 247, 1);
+	position: absolute;
+	right: 20px;
+	top: 70px;
+	width: 80%;
 }
 .all {
 	width: 1.28%;
@@ -85,22 +88,21 @@ const defaultSort = ref("Default");
 .sort-amount-down-1 {
 	width: calc(1.81% - 4px);
 	overflow: hidden;
-	padding: 6px 2px;
-	align-self: stretch;
-	position: relative;
+	padding: 15px;
+	position: absolute;
+	right: 0;
 }
 .default {
-	width: 187.5%;
-	height: 66.67%;
+	position: fixed;
+	top: 75px;
+	right: 80px;
 	font-family: "Roboto";
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: normal;
 	color: rgba(139, 139, 139, 1);
-	position: absolute;
-	left: -61px;
-	top: 4px;
 }
+
 .vector {
 	width: 100%;
 	height: 100%;

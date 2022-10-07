@@ -14,5 +14,6 @@ const projects = ref("Projects");
 	font-weight: 500;
 	line-height: normal;
 	color: rgba(60, 85, 122, 1);
+	margin-left: 250px;
 }
 </style>

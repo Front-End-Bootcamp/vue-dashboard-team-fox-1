@@ -14,8 +14,11 @@ const notification = ref("Notification");
 	padding: 2.33px 4.66px 2.39px 4.67px;
 	display: flex;
 	align-items: center;
+	cursor: pointer;
 }
 .vector {
+	margin-top: 12px;
+
 	width: 100%;
 	align-self: stretch;
 	object-fit: cover;

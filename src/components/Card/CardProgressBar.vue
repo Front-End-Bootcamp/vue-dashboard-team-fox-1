@@ -1,6 +1,5 @@
 <script setup>
 const props = defineProps(["progress"]);
-console.log(props.progress);
 </script>
 
 <template>
